@@ -15,5 +15,7 @@ int main(){
 		cout << "Nilai Tinggi   = "; cin >> t;
 		luas = 0.5*alas*t;
 		cout << "Luas Segitiga adalah " << luas;
-	}
+		}else if (bidang!='S'||bidang!='P'){
+			cout << "KODE ERROR..!";
+		}
 }
