@@ -80,6 +80,19 @@ int main(){
 			cout << " Kamera Depan       = "<<iPhone8Plus.rkameraDepan<<"MP"<<endl;
 			cout << " Kamera Belakang    = "<<iPhone8Plus.rkameraBelakang<<"MP"<<endl;
 			cout <<" Kapasitas Ram   = " <<(iPhone8Plus.kapasitasRAM)<<"GB"<<endl; 
+			system("cls");listgame(); //memanggil fungsi listgame
+			sini2:
+			cout << "Kamu mau maen Game apa : ";cin>>pp;
+				switch(pp){
+			case '1' :
+				iPhone8Plus.maingame(mobilelegend, iPhone8Plus);
+				break; // utk mengakhiri kondisi percabangan
+			case '2' :
+				iPhone8Plus.maingame(tricky, iPhone8Plus);
+				break;	
+			default :
+				cout << "Kode yang anda masukkan SALAH! pilih lagi."<< endl; goto sini2;
+				} //akhir switch
 		}else{
 			cout << "ERROR 405! Kode yang anda masukkan SALAH!";
 		}//akhir percabangan
