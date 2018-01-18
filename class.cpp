@@ -17,6 +17,24 @@ class smartphone{
 smartphone XiaomiRedmi5A, iPhone8Plus; // objek dari class smartphone
 mainan mobilelegend,tricky;  //objek dari class mainan
 
+void smartphone::maingame(mainan games,smartphone phone){
+	cout << " RESULT for Your Specification!"<<endl;
+	if (games.kapasitasRAM<phone.kapasitasRAM){
+		cout << "Game dapat kamu mainkan!!"<<endl;
+		cout<< "Ram = Good"<<endl;
+	} else {
+		cout<< "Ram = Bad"<<endl;
+	};
+}
+
+void listgame(){
+	cout << "================================"<<endl;
+	cout << "  ======== LIST GAME ========="<<endl;
+	cout << "================================"<<endl<<endl;
+	cout << "| 1. Mobile Legend | 2. Tricky  |"<<endl;
+	cout << "================================"<<endl;
+}
+
 int main(){
 	
 }
