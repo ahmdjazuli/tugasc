@@ -37,4 +37,13 @@ void listgame(){
 
 int main(){
 	string liat; cout.setf(ios::fixed); cout.setf(ios::showpoint); cout.precision(2);
+	char pp; // untuk percabangan switch dibawah
+	
+	// kapasitas Ram dari Mainan
+	tricky.kapasitasRAM = 1;
+	mobilelegend.kapasitasRAM = 3;
+	
+	//kapasitas Ram dari Smartphone
+	XiaomiRedmi5A.kapasitasRAM = 2;
+	iPhone8Plus.kapasitasRAM = 4;
 }
