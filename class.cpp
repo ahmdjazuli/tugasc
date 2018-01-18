@@ -1,5 +1,15 @@
 #include <iostream>
+#include <Windows.h> // gsn warnany
 using namespace std;
+
+void warnax(unsigned short color){
+	HANDLE hCon = GetStdHandle(STD_OUTPUT_HANDLE);
+	SetConsoleTextAttribute(hCon,color);
+}
+
+/* daftar warna :
+	1:biru tua, 2: hijau tua
+*/
 
 class mainan{
 	public:
