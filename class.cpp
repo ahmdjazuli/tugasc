@@ -14,6 +14,9 @@ class smartphone{
 		int rkameraBelakang;
 };
 
+smartphone XiaomiRedmi5A, iPhone8Plus; // objek dari class smartphone
+mainan mobilelegend,tricky;  //objek dari class mainan
+
 int main(){
 	
 }
