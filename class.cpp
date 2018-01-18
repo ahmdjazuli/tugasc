@@ -8,7 +8,10 @@ void warnax(unsigned short color){
 }
 
 /* daftar warna :
-	1:biru tua, 2: hijau tua
+	buhan guram
+	1:biru tua, 2: hijau tua, 3: biru, 4:merah tua, 5:pink, 6:kuning, 7:putih,8:abu2
+	buhan terang
+	9:biru tua, 10: hijau tua, 11: biru, 12:merah tua, 13:pink, 14:kuning, 15:putih
 */
 
 class mainan{
